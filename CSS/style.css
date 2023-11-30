@@ -1,0 +1,26 @@
+@import url();
+:root {
+  --dark-blue: rgba(24, 75, 206, 1);
+  --light-blue: rgba(24, 75, 206, 0.6);
+  --background-blue: rgba(191, 218, 243, 0.3);
+  --dark-gray: rgba(83, 78, 78, 1);
+  --light-gray: rgba(131, 128, 128, 1);
+}
+body {
+  margin: 0;
+  padding: 0 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  overflow-x: hidden;
+  width: 100vw;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
