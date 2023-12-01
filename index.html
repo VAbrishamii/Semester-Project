@@ -33,7 +33,43 @@
           <li><i class="fa-solid fa-user"></i></li>
           <li class="hamburger-menu"><i class="fa-solid fa-bars"></i></li>
         </ul>
+        <!-- ---------------------burger---------------- -->
+
+        <div class="burger-menu">
+          <div class="cross-icon">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="burger-menu-item">
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/exhibition.html">Exhibition</a></li>
+              <li><a href="/events.html">Event</a></li>
+              <li><a href="/get-involved.html">Get Involved</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
+      <div class="cover">
+        <img src="./Images/cover.jpeg" alt="cover" />
+        <p class="cover-note">
+          Community Science Museum The entrance is free for all
+        </p>
+      </div>
     </header>
+    <!-- -------------------JS-------------------- -->
+    <script>
+      const burgerIcon = document.querySelector(".fa-bars");
+      const crossIcon = document.querySelector(".fa-xmark");
+      const burgerMenu = document.querySelector(".burger-menu");
+
+      burgerIcon.addEventListener("click", function () {
+        burgerMenu.classList.add("show-burger-menu");
+      });
+
+      crossIcon.addEventListener("click", function () {
+        burgerMenu.classList.remove("show-burger-menu");
+      });
+    </script>
   </body>
 </html>
