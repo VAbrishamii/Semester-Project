@@ -7,6 +7,7 @@ nav {
 }
 .logo {
   margin-top: 1rem;
+  width: 10rem;
 }
 .menu,
 .icon {
@@ -16,17 +17,21 @@ nav {
   color: var(--dark-blue);
   font-size: 2rem;
 }
+.menu li a {
+  color: var(--dark-blue);
+}
+.menu li a:hover {
+  color: var(--hover-color);
+}
+
 .menu li {
   margin-right: 1.2rem;
 }
 .icon li {
   margin-right: 1rem;
 }
-.burger {
+.hamburger-menu {
   display: none;
-  padding: 0.5rem;
-  position: relative;
-  z-index: 4000;
 }
 .burger-menu {
   position: absolute;
@@ -36,16 +41,15 @@ nav {
   color: #fff;
   z-index: 5000;
   height: 200px;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
   display: none;
+  top: 0;
 }
 .cross-icon {
   text-align: right;
 }
-.burger-menu-item {
-  color: #fff;
-}
+
 .burger-menu-item ul {
   display: block;
   text-align: left;
@@ -62,15 +66,23 @@ nav {
   .menu {
     display: none;
   }
-  .burger {
-    display: flex;
-    margin-top: 20px;
-    font-size: 25px;
+  .hamburger-menu {
+    display: block;
   }
-  nav img {
+  .logo {
     width: 8rem;
+  }
+  nav {
+    justify-content: space-between;
   }
   .icon {
     font-size: 1rem;
   }
+}
+@media (min-width: 768px) {
+  .menu {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1024) {
 }

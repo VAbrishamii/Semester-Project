@@ -1,3 +1,38 @@
-ul li:hover {
-  color: var(--hover-color);
+.cover {
+  width: 100%;
+  position: relative;
+}
+.cover img {
+  width: 100%;
+  height: 1000px;
+  display: block;
+}
+.cover-note {
+  position: absolute;
+  display: block;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  text-align: center;
+  left: 50%;
+}
+h1 {
+  font-size: 5rem;
+}
+.cover-note p {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-top: -30px;
+}
+.main-explor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 8rem;
+}
+
+.main-explor-pic img {
+  width: 80%;
+
+  border-radius: 5rem;
 }
