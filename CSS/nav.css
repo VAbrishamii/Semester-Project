@@ -4,6 +4,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1rem;
+  /* font-family: "Jura", sans-serif; */
 }
 .logo {
   margin-top: 1rem;
@@ -15,10 +16,16 @@ nav {
   align-items: center;
   justify-content: center;
   color: var(--dark-blue);
-  font-size: 2rem;
+  padding: 0 1px;
+}
+
+.icon {
+  font-size: 1.5rem;
 }
 .menu li a {
   color: var(--dark-blue);
+  font-family: "Jura", sans-serif;
+  font-size: 2rem;
 }
 .menu li a:hover {
   color: var(--hover-color);
@@ -30,6 +37,7 @@ nav {
 .icon li {
   margin-right: 1rem;
 }
+
 .hamburger-menu {
   display: none;
 }
@@ -80,8 +88,8 @@ nav {
   }
 }
 @media (min-width: 768px) {
-  .menu {
-    font-size: 1.5rem;
+  .menu li a {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 1024) {

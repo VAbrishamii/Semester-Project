@@ -1,4 +1,5 @@
-@import url();
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Italiana&family=Jura:wght@400;600&family=Poppins:wght@400;500;600;800;900&display=swap");
+
 :root {
   --dark-blue: rgba(24, 75, 206, 1);
   --light-blue: rgba(24, 75, 206, 0.6);
@@ -7,6 +8,7 @@
   --light-gray: rgba(131, 128, 128, 1);
   --hover-color: rgba(52, 55, 132, 1);
   --red-color: rgba(242, 68, 44, 1);
+  --white: #ffff;
 }
 body {
   margin: 0;
@@ -18,6 +20,7 @@ body {
   border: none;
   overflow-x: hidden;
   width: 100vw;
+  font-family: "Jura", sans-serif;
 }
 a {
   text-decoration: none;
