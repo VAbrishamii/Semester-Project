@@ -4,7 +4,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1rem;
-  /* font-family: "Jura", sans-serif; */
 }
 .logo {
   margin-top: 1rem;
@@ -24,8 +23,8 @@ nav {
 }
 .menu li a {
   color: var(--dark-blue);
-  font-family: "Jura", sans-serif;
-  font-size: 2rem;
+
+  font-size: 3rem;
 }
 .menu li a:hover {
   color: var(--hover-color);

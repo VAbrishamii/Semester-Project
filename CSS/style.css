@@ -29,3 +29,15 @@ a {
 li {
   list-style: none;
 }
+.btn {
+  background: var(--dark-blue);
+  width: 30%;
+  color: var(--white);
+  padding: 20px;
+  font-size: 2vw;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  margin-top: 3rem;
+  font-family: "Italiana", sans-serif;
+}

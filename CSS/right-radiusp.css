@@ -1,12 +1,14 @@
 .right-radiusp {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2.5rem;
 }
 .right-radiusp-text {
-  width: 100%;
-  font-size: 2vw;
-  /* margin: 0 5rem; */
+  width: 55%;
+  font-size: 1.4vw;
+  margin-top: 2.5rem;
 }
 .right-radiusp-text h2 {
   color: var(--dark-blue);
@@ -14,11 +16,11 @@
 }
 .right-radiusp-text p {
   text-align: justify;
-  margin-right: 3rem;
 }
 .right-radiusp img {
-  width: 100%;
-  aspect-ratio: 9/13;
-  /* margin: 3rem; */
+  width: 20%;
+  height: 10%;
+  aspect-ratio: 7/9;
+  margin: 3rem;
   border-radius: 30px;
 }

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./CSS/home.css" />
     <link rel="stylesheet" href="./CSS/right-radiusp.css" />
     <link rel="stylesheet" href="./CSS/left-radiusp.css" />
+    <link rel="stylesheet" href="./CSS/footer.css" />
     <title>Home</title>
   </head>
   <body>
@@ -86,7 +87,7 @@
         </div>
       </div>
       <div class="main-explor-button">
-        <button>Explor Together</button>
+        <button class="btn">Explor Together</button>
       </div>
       <div class="left-radiusp">
         <img src="./Images/kids-1.jpg" alt="Kids" />
@@ -137,19 +138,53 @@
         </div>
       </div>
       <div class="update">
-        <h3>Stay Update</h3>
-        <p>
-          Over the course of human history, science has developed from our early
-          understanding of fire, wind, water, and earth to exploring everything
-          from galaxies far away to the very building blocks of life itself. The
-          aim of our museum is to create a space where everyone can experience
-          the wonders of our discoveries and perhaps even ignite a lifelong
-          passion to continue the exploration of the world around us.
-        </p>
-        .subs
+        <div class="update-text">
+          <h3>Stay Update</h3>
+          <p>
+            Over the course of human history, science has developed from our
+            early understanding of fire, wind, water, and earth to exploring
+            everything from galaxies far away to the very building blocks of
+            life itself. The aim of our museum is to create a space where
+            everyone can experience the wonders of our discoveries and perhaps
+            even ignite a lifelong passion to continue the exploration of the
+            world around us.
+          </p>
+        </div>
+      </div>
+      <div class="subscribe">
+        <div class="subscribe-text">
+          <p>
+            Subscribe to our newsletter for updates on new exhibitions, events
+            and more
+          </p>
+          <input type="email" name="Email" placeholder="Email" />
+          <div class="subscribe-button">
+            <button class="btn">Subscribe</button>
+          </div>
+        </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <div class="footer-text">
+          <ul>
+            <li><a href="/events.html">Opening Hours</a></li>
+            <li><a href="/exhibition.html">Exhibition</a></li>
+            <li><a href="/events.html">Events</a></li>
+            <li><a href="/policy.html">Privacy Policy</a></li>
+            <li><a href="/get-involved.html">Get Involved</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-icon">
+          <ul>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <!-- -------------------JS-------------------- -->
     <script>
       const burgerIcon = document.querySelector(".fa-bars");
