@@ -24,3 +24,13 @@
   margin: 3rem;
   border-radius: 30px;
 }
+@media (max-width: 425px) {
+  .right-radiusp img {
+    margin: 1rem;
+    border-radius: 20px;
+  }
+  .right-radiusp-text {
+    margin-top: 0;
+    font-size: 1.8vw;
+  }
+}

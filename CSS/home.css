@@ -62,18 +62,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-/* .main-explor-button button {
-  background: var(--dark-blue);
-  width: 20%;
-  color: var(--white);
-  padding: 20px;
-  font-size: 2vw;
-  border-radius: 40px;
-  cursor: pointer;
-  border: none;
-  margin-top: 3rem;
-  font-family: "Italiana", sans-serif;
-} */
+
 .center {
   margin-top: 3rem;
 }
@@ -88,7 +77,7 @@ h1 {
   font-size: 2vw;
 }
 .update p {
-  text-align: center;
+  text-align: left;
   font-size: 1.5vw;
   margin: 0 10rem;
 }
@@ -106,7 +95,7 @@ h1 {
   width: 80%;
   padding: 20px;
   border-radius: 5px;
-  margin-left: 3rem;
+  margin-left: 2.5rem;
   margin-top: 1rem;
 }
 .subscribe-button {
@@ -115,28 +104,7 @@ h1 {
   justify-content: center;
   margin-bottom: 2rem;
 }
-.footer {
-  background-color: var(--dark-gray);
-  max-width: 100%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.footer-text ul li a {
-  color: var(--white);
-  font-size: 2vw;
-  text-align: left;
-}
-.footer-icon ul {
-  color: var(--white);
-  font-size: 4vw;
-  display: flex;
-  text-align: right;
-}
-.footer-icon ul li i {
-  margin-right: 20px;
-}
+
 /* -------------------responsive--------------------- */
 @media (max-width: 425px) {
   .explor {
@@ -151,17 +119,30 @@ h1 {
     width: 80%;
   }
   .main-explor-text p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .main-explor-pic {
     width: 70%;
     margin: 1rem auto;
     align-items: center;
   }
-
-  .main-explor-button button {
+  .update p {
+    font-size: 3vw;
+    text-align: justify;
+    margin: 2rem;
+  }
+  .update h3 {
+    font-size: 3vw;
+  }
+  .subscribe p {
+    font-size: 2.4vw;
+  }
+  .subscribe input {
+    padding: 10px;
+  }
+  .btn {
     width: 50%;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 768px) {
@@ -172,10 +153,8 @@ h1 {
   .main-explor-text p {
     font-size: 1.8vw;
   }
-  .main-explor-button button {
-    width: 50%;
-    font-size: 1rem;
-    margin-top: 3rem;
+  .subscribe-text input {
+    margin-left: 1rem;
   }
 }
 @media (min-width: 1024px) {
@@ -184,13 +163,7 @@ h1 {
     height: auto;
     margin-left: 2rem;
   }
-  /* .main-explor-button button {
-    width: 30%;
-    font-size: 2rem;
-    margin-top: 3rem;
-    padding: 20px;
-    border-radius: 70px;
-  } */
+
   .main-explor-text {
     margin: 0;
     width: 40%;

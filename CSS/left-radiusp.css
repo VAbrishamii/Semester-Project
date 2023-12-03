@@ -1,5 +1,5 @@
 .left-radiusp {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,4 +24,18 @@
 }
 .left-radiusp-text p {
   text-align: justify;
+}
+@media (max-width: 425px) {
+  .left-radiusp img {
+    margin: 1rem;
+    aspect-ratio: 8/14;
+    border-radius: 20px;
+  }
+  .left-radiusp-text {
+    margin-top: 0;
+    font-size: 1.8vw;
+  }
+  .center {
+    margin: 1rem;
+  }
 }
