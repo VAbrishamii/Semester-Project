@@ -7,7 +7,7 @@ nav {
 }
 .logo {
   margin-top: 1rem;
-  width: 10rem;
+  width: 20rem;
 }
 .menu,
 .icon {
@@ -23,8 +23,7 @@ nav {
 }
 .menu li a {
   color: var(--dark-blue);
-
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .menu li a:hover {
   color: var(--hover-color);
@@ -34,7 +33,7 @@ nav {
   margin-right: 1.2rem;
 }
 .icon li {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .hamburger-menu {
@@ -86,9 +85,9 @@ nav {
     font-size: 1rem;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .menu li a {
-    font-size: 1.2rem;
+    font-size: rem;
   }
 }
 @media (max-width: 1024) {

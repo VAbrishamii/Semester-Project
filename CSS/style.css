@@ -41,3 +41,14 @@ li {
   margin-top: 3rem;
   font-family: "Italiana", sans-serif;
 }
+.title {
+  width: 100%;
+  background-color: var(--light-blue);
+  text-align: center;
+  font-size: 2vw;
+  height: 15vh;
+  color: var(--white);
+}
+.title h1 {
+  padding: 30px;
+}
