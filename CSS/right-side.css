@@ -1,0 +1,27 @@
+.right-side {
+  width: 100vw;
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.right-side-img img {
+  height: 50vh;
+  aspect-ratio: 16/9;
+  text-align: right;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-top: 5rem;
+  position: relative;
+}
+.right-side-title {
+  text-align: center;
+  background-color: var(--light-gray);
+  width: 18vw;
+  height: 8vh;
+  font-size: 1vw;
+  margin-left: 110%;
+  margin-bottom: 3rem;
+  /* position: absolute; */
+}
