@@ -3,9 +3,9 @@
 :root {
   --dark-blue: rgba(24, 75, 206, 1);
   --light-blue: rgba(24, 75, 206, 0.6);
-  --background-blue: rgba(191, 218, 243, 0.3);
+  --background-blue: rgba(182, 215, 246, 0.3);
   --dark-gray: rgba(83, 78, 78, 1);
-  --light-gray: rgb(179, 174, 174);
+  --light-gray: rgba(245, 245, 245, 1);
   --hover-color: rgba(52, 55, 132, 1);
   --red-color: rgba(242, 68, 44, 1);
   --white: #ffff;
