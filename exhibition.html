@@ -88,22 +88,114 @@
         <div class="left-side-img">
           <img src="./Images/biology.jpg" alt="picture of human heart" />
         </div>
+        <div class="left-side-text">
+          <p>
+            From micro-organisms to the human body, major breakthroughs in
+            biology are offering us unique insights into the great wonders of
+            the tiny world.<br /><br />
+            For many people their life expectancy is much longer and their
+            quality of life much improved, thanks to the growth of our
+            understanding of medicine. Over a series of exhibits we explore the
+            history of medicine and take a look at some major breakthroughs
+            including the discovery of penicillin and the first heart
+            transplant.<br /><br />
+            Many of our great medicinal discoveries have come not only from the
+            lab, but also from observing animals in the wild. Often our fellow
+            creatures have beat us to it.
+          </p>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="right-side-title">
+          <h2>Ecology</h2>
+        </div>
+        <div class="right-side-img">
+          <img
+            src="./Images/ecology.jpg"
+            alt="earth with plant picture which is related ecology" />
+        </div>
+      </div>
+      <div class="right-side-text">
+        As we learn more and more of the impact humans are having on the planet,
+        the more important it becomes that scientists explore how to create a
+        sustainable future not just for humans but for the whole planet.
+        <br /><br />In our ecology section of the museum, we unpack the dangers
+        we currently face including global warming, extinction of species, and
+        pollution. But we also focus on the positive ways we can all contribute
+        to a brighter future.
+      </div>
+      <div class="left-side">
+        <div class="left-side-title">
+          <h2>Robatics and AI</h2>
+        </div>
+        <div class="left-side-img">
+          <img
+            src="./Images/robatics.jpg"
+            alt="picture of robat that present robatic and AI" />
+        </div>
+        <div class="left-side-text">
+          The information revolution is here and robotics and artificial
+          intelligence are the science of the future. From useful home
+          applications of AI to industrial uses of robotics, the future is here.
+          You can even say hello and shake the hand of Rob the Robot
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="right-side-title">
+          <h2>Evolution</h2>
+        </div>
+        <div class="right-side-img">
+          <img
+            src="./Images/evolution.jpg"
+            alt="earth with plant picture which is related ecology" />
+        </div>
       </div>
       <div class="right-side-text">
         <p>
-          From micro-organisms to the human body, major breakthroughs in biology
-          are offering us unique insights into the great wonders of the tiny
-          world.<br /><br />
-          For many people their life expectancy is much longer and their quality
-          of life much improved, thanks to the growth of our understanding of
-          medicine. Over a series of exhibits we explore the history of medicine
-          and take a look at some major breakthroughs including the discovery of
-          penicillin and the first heart transplant.<br /><br />
-          Many of our great medicinal discoveries have come not only from the
-          lab, but also from observing animals in the wild. Often our fellow
-          creatures have beat us to it.
+          For centuries, philosophers and scientists have wrestled with the
+          question of our origins. Where do we come from and how did we get
+          here? Since Darwin proposed his theory of evolution we have had a
+          framework for exploring and understanding our place in this world.<br /><br />
+          Discover the origins of life on this planet and how the species we
+          know today have evolved our time. You can also take some time to meet
+          a few of the creatures who didn’t survive, including our Woolly
+          Mammoth, the Dodos, and a number of dinosaurs too.
         </p>
       </div>
     </main>
+    <div class="footer">
+      <div class="footer-text">
+        <ul>
+          <li><a href="/events.html">Opening Hours</a></li>
+          <li><a href="/exhibition.html">Exhibition</a></li>
+          <li><a href="/events.html">Events</a></li>
+          <li><a href="/policy.html">Privacy Policy</a></li>
+          <li><a href="/get-involved.html">Get Involved</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-icon">
+        <ul>
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- -------------------JS-------------------- -->
+  <script>
+    const burgerIcon = document.querySelector(".fa-bars");
+    const crossIcon = document.querySelector(".fa-xmark");
+    const burgerMenu = document.querySelector(".burger-menu");
+
+    burgerIcon.addEventListener("click", function () {
+      burgerMenu.classList.add("show-burger-menu");
+    });
+
+    crossIcon.addEventListener("click", function () {
+      burgerMenu.classList.remove("show-burger-menu");
+    });
+  </script>
   </body>
 </html>

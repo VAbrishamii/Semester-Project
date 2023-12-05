@@ -4,20 +4,20 @@
   display: flex;
   justify-content: right;
   align-items: center;
-  padding: 20px;
+  padding-bottom: 20px;
   position: relative;
 }
 .right-side-title h2 {
   flex: 1;
   position: absolute;
-  transform: translate(20%, -370%);
+  transform: translate(20%, -390%);
   background-color: var(--light-gray);
   text-align: center;
   font-family: "Italiana", sans-serif;
   width: 18vw;
   height: 5vh;
   border: 1px solid black;
-  font-size: 2vw;
+  font-size: 1.5vw;
   padding: 5px;
   z-index: 100;
 }
@@ -29,12 +29,14 @@
   position: relative;
   margin-top: 5rem;
   overflow: hidden;
+  width: 60vw;
 }
 .right-side-text {
   width: 90%;
   margin-left: 3rem;
   margin-top: 2rem;
-  font-size: 2vw;
+  font-size: 1.5vw;
+  margin-bottom: 1rem;
 }
 @media (max-width: 425px) {
   .right-side {
@@ -57,11 +59,19 @@
     font-size: 3vw;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 426px) and (max-width: 1024px) {
   .right-side-title h2 {
-    height: 4.8vh;
+    height: 4.5vh;
     width: 20vw;
-    font-size: 2.5vw;
-    transform: translate(20%, -490%) !important;
+    transform: translate(20%, -420%);
+    font-size: 2vw;
+  }
+}
+@media (min-width: 1441px) {
+  .right-side-title h2 {
+    height: 4vh;
+    width: 20vw;
+    font-size: 2vw;
+    transform: translate(20%, -570%) !important;
   }
 }
