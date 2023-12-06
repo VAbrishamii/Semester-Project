@@ -9,6 +9,7 @@
   --hover-color: rgba(52, 55, 132, 1);
   --red-color: rgba(242, 68, 44, 1);
   --white: #ffff;
+  --midpurple: rgba(166, 169, 225, 0.58);
 }
 body {
   margin: 0;

@@ -1,0 +1,8 @@
+.left-radiusp {
+  background-color: var(--midpurple);
+  width: 75vw;
+  margin: 5rem auto;
+  border-radius: 15px;
+}
+.left-radiusp img {
+}
