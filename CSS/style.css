@@ -10,6 +10,8 @@
   --red-color: rgba(242, 68, 44, 1);
   --white: #ffff;
   --midpurple: rgba(166, 169, 225, 0.58);
+  --light-green: rgba(184, 221, 212, 0.58);
+  --purple: rgba(207, 183, 219, 0.74);
 }
 body {
   margin: 0;

@@ -1,8 +1,73 @@
 .left-radiusp {
-  background-color: var(--midpurple);
-  width: 75vw;
+  /* padding: 20px; */
+  width: 75%;
   margin: 5rem auto;
-  border-radius: 15px;
 }
 .left-radiusp img {
+  margin-bottom: -25px;
+}
+.background-midpurple {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--midpurple);
+  border-radius: 15px;
+}
+
+.background-lightgreen {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--light-green);
+  border-radius: 15px;
+}
+.background-purple {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--purple);
+  border-radius: 15px;
+}
+.visit-info {
+  width: 60%;
+  background-color: var(--light-blue);
+  text-align: center;
+  font-size: 2vw;
+  height: 15vh;
+  color: var(--white);
+  margin: 5rem auto;
+}
+.visit-info h3 {
+  padding: 50px;
+}
+.hours {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 8rem;
+}
+
+.hours img {
+  width: 80%;
+  border-radius: 5px;
+  aspect-ratio: 1;
+}
+.hours h4 {
+  font-size: 3vw;
+  color: var(--dark-blue);
+}
+.hours p {
+  font-size: 2vw;
+}
+.location,
+.admission {
+  width: 100%;
+  margin: 0 5rem;
+  font-size: 1.8vw;
+  width: 90%;
+}
+.location h5,
+.admission h5 {
+  color: var(--dark-blue);
 }
