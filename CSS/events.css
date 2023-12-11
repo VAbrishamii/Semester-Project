@@ -36,6 +36,7 @@
   height: 15vh;
   color: var(--white);
   margin: 5rem auto;
+  border-radius: 5px;
 }
 .visit-info h3 {
   padding: 50px;
@@ -51,7 +52,7 @@
 .hours img {
   width: 80%;
   border-radius: 5px;
-  aspect-ratio: 1;
+  aspect-ratio: 3/2;
 }
 .hours h4 {
   font-size: 3vw;
@@ -70,4 +71,42 @@
 .location h5,
 .admission h5 {
   color: var(--dark-blue);
+}
+.facilitate {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  justify-content: center;
+  margin: 5rem;
+}
+.facility-one,
+.facility-second,
+.facility-third {
+  max-width: 100%;
+  background-color: var(--background-blue);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  border-radius: 25px;
+  flex: 1 1 200px;
+  overflow: hidden;
+}
+.facilitate-img {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  padding: 20px;
+  border: 1px solid var(--light-blue);
+  aspect-ratio: 1/1;
+  transition: none;
+  margin: auto;
+}
+.text-facilitate {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 40px;
+  flex: 1;
 }
