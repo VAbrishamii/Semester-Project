@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./CSS/nav.css" />
     <link rel="stylesheet" href="./CSS/exhibition.css" />
     <link rel="stylesheet" href="./CSS/right-side.css" />
-    <link rel="stylesheet" href="./CSS/left.side.css" />
+    <link rel="stylesheet" href="./CSS/left-side.css" />
     <link rel="stylesheet" href="./CSS/footer.css" />
     <title>Exhibition</title>
   </head>
@@ -163,39 +163,40 @@
         </p>
       </div>
     </main>
-    <div class="footer">
-      <div class="footer-text">
-        <ul>
-          <li><a href="/events.html">Opening Hours</a></li>
-          <li><a href="/exhibition.html">Exhibition</a></li>
-          <li><a href="/events.html">Events</a></li>
-          <li><a href="/policy.html">Privacy Policy</a></li>
-          <li><a href="/get-involved.html">Get Involved</a></li>
-          <li><a href="/contact.html">Contact Us</a></li>
-        </ul>
+    <footer>
+      <div class="footer">
+        <div class="footer-text">
+          <ul>
+            <li><a href="/events.html">Opening Hours</a></li>
+            <li><a href="/exhibition.html">Exhibition</a></li>
+            <li><a href="/events.html">Events</a></li>
+            <li><a href="/policy.html">Privacy Policy</a></li>
+            <li><a href="/get-involved.html">Get Involved</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-icon">
+          <ul>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer-icon">
-        <ul>
-          <li><i class="fa-brands fa-facebook"></i></li>
-          <li><i class="fa-brands fa-instagram"></i></li>
-          <li><i class="fa-brands fa-twitter"></i></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-  <!-- -------------------JS-------------------- -->
-  <script>
-    const burgerIcon = document.querySelector(".fa-bars");
-    const crossIcon = document.querySelector(".fa-xmark");
-    const burgerMenu = document.querySelector(".burger-menu");
+    </footer>
+    <!-- -------------------JS-------------------- -->
+    <script>
+      const burgerIcon = document.querySelector(".fa-bars");
+      const crossIcon = document.querySelector(".fa-xmark");
+      const burgerMenu = document.querySelector(".burger-menu");
 
-    burgerIcon.addEventListener("click", function () {
-      burgerMenu.classList.add("show-burger-menu");
-    });
+      burgerIcon.addEventListener("click", function () {
+        burgerMenu.classList.add("show-burger-menu");
+      });
 
-    crossIcon.addEventListener("click", function () {
-      burgerMenu.classList.remove("show-burger-menu");
-    });
-  </script>
+      crossIcon.addEventListener("click", function () {
+        burgerMenu.classList.remove("show-burger-menu");
+      });
+    </script>
   </body>
 </html>
