@@ -20,3 +20,23 @@
 span {
   font-weight: bold;
 }
+a {
+  font-size: 1rem;
+}
+@media (max-width: 425px) {
+  .policy {
+    margin: 2rem;
+  }
+  .policy h2 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: -1.5rem;
+  }
+  .policy p {
+    font-size: 1rem;
+    padding: 40px;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+}
