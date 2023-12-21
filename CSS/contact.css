@@ -8,3 +8,45 @@
 .title h1 {
   padding-bottom: 0px !important;
 }
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  /* height: 50vw; */
+}
+.message-info {
+  background-color: var(--light-gray);
+  padding: 2rem;
+  margin-top: -100px;
+}
+.form input {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 2rem;
+  width: 20vw;
+  border: none;
+}
+.form input ::placeholder {
+  color: var(--light-gray);
+}
+.form input:last-child {
+  height: 15rem;
+  position: relative;
+}
+.form input:last-child::placeholder {
+  top: 8px;
+  position: absolute;
+  text-align: left;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  /* height: 50vh; */
+}
