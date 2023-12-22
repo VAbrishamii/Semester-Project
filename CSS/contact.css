@@ -11,27 +11,31 @@
 .message {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 5rem;
-  height: 60vh;
-  padding: 1.5rem;
+  /* flex-wrap: wrap; */
+  overflow: hidden;
+  margin: 4rem;
+  margin-top: -4rem;
+  height: auto;
+}
+.message h2 {
+  font-size: 2vw;
 }
 .message-info {
   background-color: var(--light-gray);
-  padding: 2rem;
-  margin-top: -100px;
+  padding: 3rem;
+  width: 45%;
 }
 .form input {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin: 2rem;
-  width: 20vw;
+  margin: 3rem;
+  width: 35vw;
   border: none;
 }
 .form input ::placeholder {
   color: var(--light-gray);
-  font-size: 20px;
+  font-size: 3rem;
 }
 .form input:last-child {
   height: 15rem;
@@ -54,36 +58,40 @@
   align-items: center;
   justify-content: center;
 }
+
 .info {
   background-color: var(--dark-blue);
   color: var(--white);
-  padding: 1.5rem;
-  height: 62vh;
-  margin-top: -100px;
+  padding: 3rem;
   align-items: center;
+  justify-content: left;
+  width: 45%;
 }
-.info h3 {
-  font-size: 2rem;
+.info h2 {
+  margin-bottom: 5rem;
 }
 .info-content i {
-  margin: 20px;
-  font-size: 2rem;
+  margin-right: 15px;
+  font-size: 1rem;
 }
 .info-content li {
-  font-size: 1.2rem;
-  margin: 5rem;
+  font-size: 1.5vw;
+  margin-bottom: 4rem;
+}
+@media (max-width: 1024px) {
+  .form input {
+    width: 30vw;
+    margin: 1rem;
+  }
 }
 @media (max-width: 425px) {
   .message {
-    display: flex;
-    flex-direction: column;
-    height: 10vh;
-    margin-top: 0;
+    flex-wrap: wrap;
   }
-  .massege-info {
-    width: 80%;
+  .message-info {
+    width: 100%;
   }
   .info {
-    width: 80%;
+    width: 100%;
   }
 }
