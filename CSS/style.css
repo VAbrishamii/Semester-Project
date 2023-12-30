@@ -55,3 +55,6 @@ li {
 .title h1 {
   padding: 30px;
 }
+label {
+  display: none;
+}

@@ -1,6 +1,5 @@
 .title {
   height: 30vh !important;
-  /* text-align: left !important; */
 }
 .title p {
   color: var(--white);
@@ -12,7 +11,6 @@
 .message {
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
   overflow: hidden;
   margin: 4rem;
   margin-top: -4rem;
