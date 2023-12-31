@@ -3,7 +3,6 @@
 }
 .title p {
   color: var(--white);
-  margin-bottom: 2rem;
 }
 .title h1 {
   padding-bottom: 0px !important;
@@ -13,8 +12,9 @@
   justify-content: center;
   overflow: hidden;
   margin: 4rem;
-  margin-top: -3.8rem;
+  margin-top: -5rem;
   height: auto;
+  padding-top: 2rem;
 }
 .message h2 {
   font-size: 2vw;
