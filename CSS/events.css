@@ -42,7 +42,6 @@
   padding: 50px;
 }
 .hours {
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -113,9 +112,9 @@
   .hours {
     margin: 3rem;
   }
-  .hours p {
+  /* .hours p {
     font-size: 0.6rem;
-  }
+  } */
   .location,
   .admission {
     margin: 0 1rem;
