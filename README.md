@@ -5,6 +5,14 @@
 [Visit Community Science Museum](https://remarkable-sprinkles-138ea8.netlify.app/)
 
 ## Description 
+This is my first project exam at Noroff. This project involves creating a web presence for the Community Science Museum, an interactive science museum opening soon in our area. The museum targets primary and middle school children (ages 7-15) and families with young children.
+
+ Requirements:
+  .Use the provided image and text content
+  .Design a placeholder logo, as the final logo is not yet decided
+  .Ensure the website is modern, accessible, and responsive
+
+The goal is to create a site that attracts and engages visitors, encouraging them to explore the museum.
 
 ## Built with
 <div style="display: flex; gap: 10px;">
