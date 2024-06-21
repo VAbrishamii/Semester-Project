@@ -25,7 +25,7 @@ The goal is to create a site that attracts and engages visitors, encouraging the
 ## Getting Started
 1. Clone the Repo:
   ```sh
-   (https://github.com/VAbrishamii/Semester-Project.git)
+  git clone https://github.com/VAbrishamii/Semester-Project.git
 
   ```
 2. Install the dependencies:  
@@ -37,6 +37,10 @@ To run the app, run the following commands:
   ```sh
   npm run start
   ```
+OR
+
+open with VSCode's Live Server on port 5000
+
 ## Contact 
 
 Feel free to contact me:
